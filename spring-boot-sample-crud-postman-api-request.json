@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "29c608b6-1111-4490-9c52-6b1c9e1a92b6",
+		"name": "spring-boot-sample-crud-postman-api-request",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "save student api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/saveStudent?studentId=stu0001&studentName=Ye Win&phoneNo=+95938243242&address=Yangon&currentEduYear=2019",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"saveStudent"
+					],
+					"query": [
+						{
+							"key": "studentId",
+							"value": "stu0001"
+						},
+						{
+							"key": "studentName",
+							"value": "Ye Win"
+						},
+						{
+							"key": "phoneNo",
+							"value": "+95938243242"
+						},
+						{
+							"key": "address",
+							"value": "Yangon"
+						},
+						{
+							"key": "currentEduYear",
+							"value": "2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "get all student api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/getAllStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"getAllStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find by id api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find by student id api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findByStudentId/stu0001",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findByStudentId",
+						"stu0001"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find by student name api",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/findByStudentName/Ye Win",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"findByStudentName",
+						"Ye Win"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update student api",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"studentId\": \"stu0002\",\n    \"studentName\": \"Ye\",\n    \"phoneNo\": \" 95938243222\",\n    \"address\": \"Yangon\",\n    \"currentEduYear\": \"2019\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/updateStudent",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"updateStudent"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete student by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/deleteById/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"deleteById",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
