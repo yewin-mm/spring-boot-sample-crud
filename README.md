@@ -26,7 +26,7 @@
 [linkedin-url]: https://www.linkedin.com/in/ye-win-1a33a292/
 [product-screenshot]: images/screenshot.png
 
-# # spring-boot-sample-crud
+# spring-boot-sample-crud
 * This is the sample backend microservice project for join table by using spring data jpa.
 
 <!-- TABLE OF CONTENTS -->
