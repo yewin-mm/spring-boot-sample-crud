@@ -60,7 +60,7 @@ So, please make sure all are installed in you machine.
 
 ### Before you begin
 If you are new in Git, Github and new in Spring Boot configuration structure, <br>
-You should see basic details instruction first in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction)
+You should see basic details instruction first in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction)<br>
 Before learn and see this project. <br>
 You should already know Java basic features like class, object, methods, condition, etc. And you should already know how to create sample api with Spring boot. 
 
