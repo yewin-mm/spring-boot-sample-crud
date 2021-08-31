@@ -1,12 +1,5 @@
 <!-- PROJECT SHIELDS -->
 
-
-<h1 align="center">
-  <img src="https://github.com/yewin-mm/spring-boot-sample-crud/blob/master/github/template/images/overview/spring_boot_simple_crud_overview.png" /><br/>
-  Create Go App CLI
-</h1>
-
-
 <!--
 *** I'm using markdown "reference style" links for readability.
 *** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
@@ -33,6 +26,12 @@
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/ye-win-1a33a292/
 [product-screenshot]: images/screenshot.png
+
+
+<h1 align="center">
+  <img src="https://github.com/yewin-mm/spring-boot-sample-crud/blob/master/github/template/images/overview/spring_boot_simple_crud_overview.png" /><br/>
+  Overview
+</h1>
 
 # spring-boot-sample-crud
 * This is the sample backend microservice project for join table by using spring data jpa.
