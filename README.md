@@ -77,7 +77,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
 ### Instruction
 * Change your database username and password in `application.properties`.
 * Run the project in your IDE. Please make sure application was successfully running.
-* You can check in your database is that there has 'Student' table was auto created by application or not under postgres schema by Database GUI tools like DBeaver.
+* You can check in your database is that there has 'Student' table was auto created by application or not, under postgres schema by Database GUI tools like DBeaver.
 * If you can't find, just click refresh in GUI and see again under postgres schema.
  
 * Import `spring-boot-sample-crud-postman-api-request.json` file under project directory (see that file in project directory) into your installed Postman application.
