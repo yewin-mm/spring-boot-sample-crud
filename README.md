@@ -2,7 +2,7 @@
 
 
 <h1 align="center">
-  <img src="https://github.com/yewin-mm/spring-boot-sample-crud/github/template/images/overview/spring_boot_simple_crud_overview.png" /><br/>
+  <img src="https://github.com/yewin-mm/spring-boot-sample-crud/blob/master/github/template/images/overview/spring_boot_simple_crud_overview.png" /><br/>
   Create Go App CLI
 </h1>
 
