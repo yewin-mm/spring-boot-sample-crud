@@ -65,7 +65,7 @@ This project is built with
 This project is built with java, maven, postgresql and use `Project Lombok` as plugin.
 So, please make sure all are installed in you machine.
 
-### 🛎️ Before you begin
+### 🔔 Before you begin
 If you are new in Git, Github and new in Spring Boot configuration structure, <br>
 You should see basic detail instructions first in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction)<br>
 Before learn and see this project. <br>
