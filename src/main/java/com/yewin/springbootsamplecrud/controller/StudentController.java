@@ -135,7 +135,7 @@ public class StudentController {
             List<Student> studentList = studentService.findByStudentId(studentId);
 
             // here we can check no record found by condition eg. if(studentList.isEmpty())
-            // and can return back customerize response message like above find by Id method.
+            // and can return back customize response message like above find by Id method.
 
             responseEntity = new ResponseEntity(studentList, HttpStatus.OK);
 
@@ -163,7 +163,7 @@ public class StudentController {
             List<Student> studentList = studentService.findByStudentName(studentName);
 
             // here we can check no record found by condition eg. if(studentList.isEmpty())
-            // and can return back customerize response message like above find by Id method.
+            // and can return back customize response message like above find by Id method.
 
             responseEntity = new ResponseEntity(studentList, HttpStatus.OK);
 
