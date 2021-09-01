@@ -65,14 +65,14 @@ This project is built with
 This project is built with java, maven, postgresql and use `Project Lombok` as plugin.
 So, please make sure all are installed in you machine.
 
-### 🔔 Before you begin
+### 🛎️ Before you begin
 If you are new in Git, Github and new in Spring Boot configuration structure, <br>
 You should see basic detail instructions first in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction)<br>
 Before learn and see this project. <br>
 You should already know Java basic features like class, object, methods, condition, etc. And you should already know how to create sample api with Spring boot. 
 
 
-### 📦 Clone Project
+### 🥡 Clone Project
 * Clone the repo
    ```sh
    git clone https://github.com/yewin-mm/spring-boot-sample-crud.git
