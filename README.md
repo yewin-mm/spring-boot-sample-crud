@@ -54,7 +54,7 @@ This is the sample backend microservice project for CURD (create, update, retrie
 You can learn how to insert, update, select, delete to database by using Spring Data JPA.
 
 
-### 🔨🪓 Built With
+### 🪓 Built With
 This project is built with
 * [Java](https://www.oracle.com/au/java/technologies/javase/javase-jdk8-downloads.html)
 * [Maven](https://maven.apache.org/download.cgi)
@@ -77,7 +77,7 @@ You should already know Java basic features like class, object, methods, conditi
    ```sh
    git clone https://github.com/yewin-mm/spring-boot-sample-crud.git
   
-### 💡🔑 Prerequisites
+### 🔑 Prerequisites
 Prerequisites can be found in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction).
 
 
@@ -104,7 +104,7 @@ Name - Ye Win <br> LinkedIn profile -  [Ye Win's LinkedIn](https://www.linkedin.
 Project Link: [Spring boot Sample CRUD Application](https://github.com/yewin-mm/spring-boot-sample-crud)
 
 
-## ⭐⭐️ Contributing
+## ⭐ Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 <br>If you want to contribute....
 1. Fork the Project
