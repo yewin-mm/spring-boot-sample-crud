@@ -34,7 +34,7 @@
 </h1>
 
 # spring-boot-sample-crud
-* This is the sample backend microservice project for join table by using spring data jpa.
+* This is the sample backend microservice project for Spring Boot + Spring Data JPA + PostgreSQL application.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
