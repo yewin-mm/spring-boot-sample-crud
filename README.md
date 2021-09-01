@@ -72,7 +72,7 @@ Before learn and see this project. <br>
 You should already know Java basic features like class, object, methods, condition, etc. And you should already know how to create sample api with Spring boot. 
 
 
-### 🎁️ Clone Project
+### 📦 Clone Project
 * Clone the repo
    ```sh
    git clone https://github.com/yewin-mm/spring-boot-sample-crud.git
