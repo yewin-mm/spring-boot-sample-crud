@@ -181,7 +181,7 @@ public class StudentService {
                         logger.info("user input data: {}", userInputStudent);
 
                         // to count at least one data was existed. if all student data (name, etc) were null or empty, we don't update into database.
-                        // if you don't want to use count, you can condition for all fields again.
+                        // if you don't want to use count, you need to add condition for all fields again.
                         int count = 0;
 
 

@@ -49,11 +49,13 @@
 - [Contributing](#Contributing)
 
 
-## ⚡️ About The Project
+<a name="about-the-project"></a>
+## ⚡️About The Project
 This is the sample backend microservice project for CURD (create, update, retrieve, delete) operation with Spring boot with Spring Data JPA.
 You can learn how to insert, update, select, delete to database by using Spring Data JPA.
 
 
+<a name="built-with"></a>
 ### 🪓 Built With
 This project is built with
 * [Java](https://www.oracle.com/au/java/technologies/javase/javase-jdk8-downloads.html)
@@ -61,26 +63,33 @@ This project is built with
 * [Postgresql Database](https://www.postgresql.org/download/)
 
 
+<a name="getting-started"></a>
 ## 🔥 Getting Started
 This project is built with java, maven, postgresql and use `Project Lombok` as plugin.
 So, please make sure all are installed in you machine.
 
+
+<a name="before-you-begin"></a>
 ### 🔔 Before you begin
 If you are new in Git, Github and new in Spring Boot configuration structure, <br>
 You should see basic detail instructions first in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction)<br>
-Before learn and see this project. <br>
+Before learn and see this project, <br>
 You should already know Java basic features like class, object, methods, condition, etc. And you should already know how to create sample api with Spring boot. 
 
 
+<a name="clone-project"></a>
 ### 🥡 Clone Project
 * Clone the repo
    ```sh
    git clone https://github.com/yewin-mm/spring-boot-sample-crud.git
   
+
+<a name="prerequisites"></a>
 ### 🔑 Prerequisites
 Prerequisites can be found in here [Spring Boot Application Instruction](https://github.com/yewin-mm/spring-boot-app-instruction).
 
 
+<a name="instruction"></a>
 ### 📝 Instruction
 * Change your database username and password in `application.properties`.
 * Run the project in your IDE. Please make sure application was successfully running.
@@ -98,12 +107,15 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
 
 ***Have Fun and Enjoy in Learning Code***
 
+
+<a name="contact"></a>
 ## ✉️ Contact
 Name - Ye Win <br> LinkedIn profile -  [Ye Win's LinkedIn](https://www.linkedin.com/in/ye-win-1a33a292/)  <br> Email Address - yewin.mmr@gmail.com
 
 Project Link: [Spring boot Sample CRUD Application](https://github.com/yewin-mm/spring-boot-sample-crud)
 
 
+<a name="contributing"></a>
 ## ⭐ Contributing
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 <br>If you want to contribute....
