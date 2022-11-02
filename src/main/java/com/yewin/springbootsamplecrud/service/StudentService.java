@@ -26,7 +26,7 @@ public class StudentService {
     private StudentRepository studentRepository; // here we need to declare object which will do for Database operation by Injection with @Autowired annotation which provide by Spring Framework.
 
     // this method is to save (create) student data to database.
-    public String saveStudent(String studentId, String studentName, String phoneNo, String address, String currentEduYear){
+    public String saveStudent(String studentId, String studentName, String phoneNo, String address, String currentEduYear) {
 
         Student student = new Student(); // create student object to save into database
 
@@ -56,14 +56,14 @@ public class StudentService {
         student = studentRepository.save(student); // save into database and get return value which include id value from database (auto generate id from database)
 
         // here we got id back from database even we don't add while saving. because we catch return value as Student in above save method.
-        String message = "Successfully save student into database with id: "+student.getId();
+        String message = "Successfully save student into database with id: " + student.getId();
 
         return message; // return message;
 
     }
 
     // this method is to get all student data from database.
-    public List<Student> getAllStudent(){
+    public List<Student> getAllStudent() {
 
         /**
          * We can call findAll() method which provide from JpaRepository interface and we already extends that interface in StudentRepository interface.
@@ -78,7 +78,7 @@ public class StudentService {
     }
 
     // this method is to get student data by id from database.
-    public Student findById(long id){
+    public Student findById(long id) {
 
         /**
          * We can call findById() method which provide from JpaRepository interface and we already extends that interface in StudentRepository interface.
@@ -94,10 +94,10 @@ public class StudentService {
 
         // check findById method is getting data or not, if not, we need to request valid student id again which existed in DB or we need to check in DB for at least one student data is existed or not.
         // If not existed any Student data, we need to call save student Api first.
-        if(optionalStudent.isPresent()) {
+        if (optionalStudent.isPresent()) {
             student = optionalStudent.get(); // get student object from Optional <Student> object.
-        }else {
-            logger.warn("Can't find Student by Id: {}",id);
+        } else {
+            logger.warn("Can't find Student by Id: {}", id);
 
             return null; // return null because we can't find.
         }
@@ -107,7 +107,7 @@ public class StudentService {
     }
 
     // this method is to get student data by student id from database.
-    public List<Student> findByStudentId(String stuId){
+    public List<Student> findByStudentId(String stuId) {
 
         /**
          * We can call findByStudentId() method which already create in StudentRepository interface and catch return type as per method which is from StudentRepository Interface.
@@ -120,7 +120,7 @@ public class StudentService {
 
         // check findByStudentName method is getting data or not, if not, we need to request valid student name again which existed in DB or we need to check in DB for at least one student data is existed or not.
         // If not existed any Student data, we need to call save student Api first.
-        if(studentList.isEmpty()) {
+        if (studentList.isEmpty()) {
 
             logger.warn("Can't find Student by studentId: {}", stuId);
 
@@ -129,7 +129,7 @@ public class StudentService {
             // return new empty list because can't find any student data by name.
             return list;  // we can return directly eg. return new ArrayList<>();
 
-        }else {
+        } else {
             return studentList;
         }
 
@@ -137,7 +137,7 @@ public class StudentService {
 
 
     // this method is to get student data by name from database.
-    public List<Student> findByStudentName(String name){
+    public List<Student> findByStudentName(String name) {
 
         /**
          * We can call findByStudentName() method which already create in StudentRepository interface and catch return type as per method which is from StudentRepository Interface.
@@ -149,11 +149,11 @@ public class StudentService {
 
         // check findByStudentName method is getting data or not, if not, we need to request valid student name again which existed in DB or we need to check in DB for at least one student data is existed or not.
         // If not existed any Student data, we need to call save student Api first.
-        if(studentList.isEmpty()) {
+        if (studentList.isEmpty()) {
             logger.warn("Can't find Student by name: {}", name);
             return new ArrayList<>(); // return new empty list because can't find any student data by name.
 
-        }else {
+        } else {
             return studentList;
         }
 
@@ -290,7 +290,7 @@ public class StudentService {
                 return errorMessage;
             }
 
-        }catch (Exception e){ // we need to catch error by try and catch, because there can be error when saving into db (eg. can't connect to db, etc)
+        } catch (Exception e) { // we need to catch error by try and catch, because there can be error when saving into db (eg. can't connect to db, etc)
             e.printStackTrace(); // print error trace log.
             logger.error(e.getMessage()); // print error log.
             return "Something went wrong, Please contact to your administrator"; // return general error message.
@@ -300,7 +300,7 @@ public class StudentService {
     }
 
     // this method is to delete student data by id.
-    public String deleteById(long id){
+    public String deleteById(long id) {
 
         Optional<Student> optionalStudent = studentRepository.findById(id);
 
@@ -321,16 +321,14 @@ public class StudentService {
             // here we can update isDeleted to 'true' by calling 'Save' method and add one field (boolean isDeleted) in entity class instead of calling deletedById.
             studentRepository.deleteById(id); // but here, I will do permanently delete as for delete sample.
 
-            return "Successfully deleted student data for id: "+id;
+            return "Successfully deleted student data for id: " + id;
 
-        }else {
-            return "We can't find any data with input id: "+id;
+        } else {
+            return "We can't find any data with input id: " + id;
         }
 
 
-
     }
-
 
 
 }

@@ -18,12 +18,12 @@ import javax.persistence.*;
 // So, by using Data, we don't need to build get, set method and toString method anymore.
 @Data // To get getter and setter method feature and that @Data was provide by Lombok.
 @Entity // that annotation '@' Entity tell spring framework that class will connect with database table.
-@Table(name ="student") // if not define, it still ok. Table will auto create by entity class name
+@Table(name = "student") // if not define, it still ok. Table will auto create by entity class name
 public class Student {
 
     @Id // declare below field 'Long id' as primary key in table.
     @GeneratedValue(strategy = GenerationType.IDENTITY) // the id will auto generate and so, no need to put id value when saving into database.
-    Long id;
+            Long id;
 
     @Column(name = "student_id")
     private String studentId;
@@ -51,7 +51,6 @@ public class Student {
     public void setStudentId(String studentId) {
         this.studentId = studentId;
     }*/
-
 
 
     /**
