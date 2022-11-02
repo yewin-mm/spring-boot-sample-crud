@@ -66,7 +66,7 @@ This project is built with
 <a name="getting-started"></a>
 ## 🔥 Getting Started
 This project is built with java, maven, postgresql and use `Project Lombok` as plugin.
-So, please make sure all are installed in you machine.
+So, please make sure all are installed in your machine.
 
 
 <a name="before-you-begin"></a>
@@ -113,6 +113,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
 Name - Ye Win <br> LinkedIn profile -  [Ye Win's LinkedIn](https://www.linkedin.com/in/ye-win-1a33a292/)  <br> Email Address - yewin.mmr@gmail.com
 
 Project Link: [Spring boot Sample CRUD Application](https://github.com/yewin-mm/spring-boot-sample-crud)
+
 
 
 <a name="contributing"></a>
