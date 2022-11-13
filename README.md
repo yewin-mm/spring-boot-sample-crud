@@ -91,6 +91,7 @@ Prerequisites can be found in here [Spring Boot Application Instruction](https:/
 
 <a name="instruction"></a>
 ### 📝 Instruction
+* Create database with name as per your `application.properties` config name which follow by db url connection string by typing `create database {name};` by using database GUI tools or inside your database control. 
 * Change your database username and password in `application.properties`.
 * Run the project in your IDE. Please make sure application was successfully running.
 * You can check in your database is that there has 'Student' table was auto created by application or not, under postgres schema by Database GUI tools like DBeaver.
