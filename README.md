@@ -60,7 +60,7 @@ You can learn how to insert, update, select, delete to database by using Spring 
 This project is built with
 * [Java](https://www.oracle.com/au/java/technologies/javase/javase-jdk8-downloads.html)
 * [Maven](https://maven.apache.org/download.cgi)
-* [Postgresql Database](https://www.postgresql.org/download/)
+* [MySQL Database](https://dev.mysql.com/downloads/installer/)
 
 
 <a name="getting-started"></a>
