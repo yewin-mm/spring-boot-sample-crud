@@ -52,7 +52,7 @@
 <a name="about-the-project"></a>
 ## ⚡️About The Project
 This is the sample backend microservice project for CURD (create, update, retrieve, delete) operation with Spring boot with Spring Data JPA.
-You can learn how to insert, update, select, delete to database by using Spring Data JPA.
+You can learn how to insert, update, select, delete to MySQL database by using Spring Data JPA.
 
 
 <a name="built-with"></a>
