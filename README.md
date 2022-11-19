@@ -34,7 +34,7 @@
 </h1>
 
 # spring-boot-sample-crud
-* This is the sample backend microservice project for Spring Boot + Spring Data JPA + PostgreSQL application.
+* This is the sample backend microservice project for Spring Boot + Spring Data JPA + MySQL application.
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
