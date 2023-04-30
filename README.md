@@ -46,6 +46,7 @@
     - [Prerequisites](#prerequisites)
     - [Instruction](#instruction)
 - [Contact Me](#contact)
+- [Becoming a Sponsor](#becoming-a-sponsor)
 - [Contributing](#Contributing)
 
 
